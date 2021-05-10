@@ -24,6 +24,22 @@ ul{
     font-size: 24px;
     float: right;
 }
+.navbar .nav-item .dropdown-menu {
+    background-color: transparent;
+    padding: 0;
+    margin-top: 15px;
+}
+.navbar .nav-item .dropdown-menu a{
+    border-top-width: 0.5px;
+    border-bottom: 1px solid;
+    border-color: #fff;
+    background-color:#056CB6;
+    color:#fff;
+}
+.navbar .nav-item .dropdown-menu a:hover{
+    background-color: #F2C94C;
+}
+
 #about,#service {
     margin: 60px 0;
 }
@@ -87,6 +103,18 @@ ul{
      margin: 30px 0;
       font-weight: 600;
        color: #fff;
+ }
+ #testimonial{
+    
+     margin: 30px 0;
+     text-align: center;
+ }
+ #testimonial .container {
+    background-color: #F8FAF5;
+  
+ }
+ #testimonial .container #carouselExampleCaptions{
+    height: 320px;
  }
 
 
