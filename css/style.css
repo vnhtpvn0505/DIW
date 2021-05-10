@@ -2,7 +2,7 @@ ul{
     list-style-type: none;
    
 }
-#top-bar a,  a:hover{
+#top-bar a{
      list-style: none;
       color: white !important;
       text-decoration: none !important;
@@ -14,8 +14,8 @@ ul{
     line-height: 50px;
 }
 #top-bar li{
-   float: left;
-   margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 }
 .social i{
     min-width: 50px;
@@ -27,17 +27,17 @@ ul{
 #about,#service {
     margin: 60px 0;
 }
-#about .title, .title{
+#about .title,.title{
     font-size: 24px;
     color:#2F80ED ;
-     font-weight: 700;
-     margin-bottom: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 #about .content{
     display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
   
 }
 #line {
@@ -45,11 +45,10 @@ ul{
     width: 100%;
     background-color: #C4C4C4;
 }
- #service .content{
+ #service .content,#gallery .content{
       text-align: center;
-      
  }
- #service .item-service {
+ #service .item-service, #gallery .item-gallery {
      margin: 10px 0;
  }
 
@@ -67,8 +66,6 @@ ul{
      background-image: url("/img/whybg.jpg");
      background-repeat: no-repeat, repeat;
       width: 100%;
-     
-      
  }
  #whychooseus .content{
       height: 480px;
@@ -82,6 +79,14 @@ ul{
  }
  #whychooseus .content .items{
      margin-bottom: 10px;
+ }
+ #gallery{
+     margin-top: 30px;
+ }
+ #gallery  button {
+     margin: 30px 0;
+      font-weight: 600;
+       color: #fff;
  }
 
 
