@@ -106,15 +106,19 @@ ul{
  }
  #testimonial{
     
+    padding: auto 0;
+    height: 320px;
      margin: 30px 0;
      text-align: center;
+     background-color: red;
  }
  #testimonial .container {
     background-color: #F8FAF5;
   
  }
- #testimonial .container #carouselExampleCaptions{
-    height: 320px;
+ #testimonial .container #carouselExampleIndicators{
+    
+   
  }
 
 
