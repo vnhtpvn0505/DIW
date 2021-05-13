@@ -130,8 +130,10 @@ ul{
      
  }
  #blogs {
-     text-align: center;
       margin: 60px 0;
+ }
+ #blogs .item-blogs .item a{
+    margin: 30px 0;
  }
  
 
